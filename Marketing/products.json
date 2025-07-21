@@ -1,0 +1,73 @@
+
+
+{
+  "VRヘッドセット": {
+    "id": "vr_headset_001",
+    "name": "VRヘッドセット Pro",
+    "description": "次世代VR体験を提供する高品質ヘッドセット。4Kディスプレイ、120Hzリフレッシュレート、軽量設計で長時間の使用も快適です。",
+    "price": 49900,
+    "imageUrl": "https://example.com/vr_headset_pro.jpg",
+    "modelPath": "Assets/Models/VRHeadsetPro.fbx",
+    "keywords": ["VR", "ゲーム", "テクノロジー", "エンターテイメント"],
+    "features": {
+      "display": "4K OLED",
+      "refresh_rate": "120Hz",
+      "weight": "300g",
+      "battery": "3時間",
+      "connectivity": "USB-C, Wi-Fi 6"
+    },
+    "purchaseUrl": "https://example.com/products/vr-headset-pro"
+  },
+  "アニメフィギュア": {
+    "id": "anime_figure_001",
+    "name": "限定アニメフィギュア",
+    "description": "人気アニメキャラクターの高品質フィギュア。限定版でコレクター必見のアイテムです。",
+    "price": 12000,
+    "imageUrl": "https://example.com/anime_figure_limited.jpg",
+    "modelPath": "Assets/Models/AnimeFigureLimited.fbx",
+    "keywords": ["アニメ", "コレクション", "フィギュア", "限定"],
+    "features": {
+      "size": "1/7スケール",
+      "material": "PVC",
+      "height": "25cm",
+      "limited": "true",
+      "edition": "限定1000体"
+    },
+    "purchaseUrl": "https://example.com/products/anime-figure-limited"
+  },
+  "音楽制作ソフト": {
+    "id": "music_software_001",
+    "name": "音楽制作スタジオ Pro",
+    "description": "プロ級の音楽制作が可能なソフトウェア。初心者からプロまで対応する高機能な音楽制作ツールです。",
+    "price": 29800,
+    "imageUrl": "https://example.com/music_studio_pro.jpg",
+    "modelPath": "Assets/Models/MusicStudioPro.fbx",
+    "keywords": ["音楽", "テクノロジー", "制作", "ソフトウェア"],
+    "features": {
+      "platform": "Windows/Mac",
+      "features": "MIDI, VST, オーディオ編集",
+      "plugins": "1000+",
+      "support": "24/7",
+      "updates": "無料"
+    },
+    "purchaseUrl": "https://example.com/products/music-studio-pro"
+  },
+  "アニメフィギュア_限定": {
+    "id": "anime_figure_limited",
+    "name": "限定アニメフィギュア コレクション",
+    "description": "人気アニメキャラクターの限定フィギュアコレクション。コレクター必見のアイテムです。",
+    "price": 15000,
+    "imageUrl": "https://example.com/anime_figure_collection.jpg",
+    "modelPath": "Assets/Models/AnimeFigureCollection.fbx",
+    "keywords": ["アニメ", "コレクション", "フィギュア", "限定", "コレクション"],
+    "features": {
+      "size": "1/7スケール",
+      "material": "PVC",
+      "height": "30cm",
+      "limited": "true",
+      "edition": "限定500体"
+    },
+    "purchaseUrl": "https://example.com/products/anime-figure-collection"
+  }
+}
+

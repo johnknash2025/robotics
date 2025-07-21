@@ -1,0 +1,175 @@
+
+
+
+{
+  "system_settings": {
+    "ar_enabled": true,
+    "personalization_level": "high",
+    "analytics_tracking": true,
+    "real_time_optimization": true,
+    "multi_language_support": ["ja", "en"],
+    "osc_port": 9000,
+    "update_interval": 5.0
+  },
+  
+  "brand_voice": {
+    "personality": {
+      "tone": "friendly_enthusiastic",
+      "traits": ["innovative", "helpful", "trendy", "authentic"],
+      "age_group": "youth",
+      "formality": "casual"
+    },
+    "language": {
+      "primary": "ja",
+      "fallback": "en",
+      "emojis": ["✨", "🚀", "💡", "🌟", "💖", "🎮", "🎵", "🎨"],
+      "forbidden_words": ["cheap", "buy now", "limited time only", "urgent", "hurry"]
+    },
+    "style": {
+      "sentence_length": "short",
+      "use_questions": true,
+      "use_exclamations": true,
+      "include_cta": true
+    }
+  },
+  
+  "campaign_defaults": {
+    "duration_days": 7,
+    "budget": 1000,
+    "target_impressions": 10000,
+    "target_ctr": 0.05,
+    "target_conversion_rate": 0.02,
+    "max_daily_spend": 200,
+    "frequency_cap": 3
+  },
+  
+  "ar_elements": {
+    "floating_banner": {
+      "enabled": true,
+      "max_concurrent": 3,
+      "fade_duration": 1.0,
+      "display_duration": 5.0,
+      "position_offset": {"x": 0, "y": 1.5, "z": 2.0},
+      "animation": "fade_in_out"
+    },
+    "product_showcase": {
+      "enabled": true,
+      "max_concurrent": 2,
+      "rotation_speed": 30.0,
+      "hover_height": 0.5,
+      "hover_speed": 2.0,
+      "interaction_distance": 3.0
+    },
+    "social_proof": {
+      "enabled": true,
+      "types": ["user_count", "rating", "recent_activity"],
+      "update_interval": 30.0,
+      "max_display_time": 10.0
+    },
+    "interactive_cta": {
+      "enabled": true,
+      "button_types": ["learn_more", "purchase", "share"],
+      "colors": ["#FF6B6B", "#4ECDC4", "#45B7D1"],
+      "hover_effects": ["scale", "glow", "bounce"]
+    }
+  },
+  
+  "audience_segments": {
+    "new_users": {
+      "welcome_message": "VRChatへようこそ！✨ 素敵な体験をお届けします",
+      "ar_intensity": "low",
+      "personalization": "basic",
+      "frequency_cap": 2
+    },
+    "active_users": {
+      "welcome_message": "おかえりなさい！新しい発見がありますよ",
+      "ar_intensity": "medium",
+      "personalization": "advanced",
+      "frequency_cap": 3
+    },
+    "influencers": {
+      "welcome_message": "インフルエンサーの皆様へ特別なご提案です",
+      "ar_intensity": "high",
+      "personalization": "premium",
+      "frequency_cap": 5
+    },
+    "potential_customers": {
+      "welcome_message": "興味をお持ちいただきありがとうございます！",
+      "ar_intensity": "high",
+      "personalization": "advanced",
+      "frequency_cap": 4
+    },
+    "loyal_fans": {
+      "welcome_message": "いつもありがとうございます！特別な特典があります",
+      "ar_intensity": "medium",
+      "personalization": "premium",
+      "frequency_cap": 6
+    }
+  },
+  
+  "product_categories": {
+    "VR": {
+      "keywords": ["VR", "バーチャル", "メタバース", "ヘッドセット", "コントローラー"],
+      "ar_experience": "immersive",
+      "target_audience": ["tech_enthusiasts", "gamers", "early_adopters"]
+    },
+    "anime": {
+      "keywords": ["アニメ", "フィギュア", "コレクション", "キャラクター", "マンガ"],
+      "ar_experience": "interactive",
+      "target_audience": ["anime_fans", "collectors", "otaku"]
+    },
+    "music": {
+      "keywords": ["音楽", "楽器", "DTM", "作曲", "オーディオ"],
+      "ar_experience": "creative",
+      "target_audience": ["musicians", "producers", "creators"]
+    },
+    "gaming": {
+      "keywords": ["ゲーム", "プレイ", "エンターテイメント", "eスポーツ"],
+      "ar_experience": "competitive",
+      "target_audience": ["gamers", "streamers", "competitors"]
+    }
+  },
+  
+  "analytics": {
+    "tracking_events": [
+      "impression",
+      "engagement",
+      "click",
+      "conversion",
+      "hover",
+      "dismiss"
+    ],
+    "metrics": {
+      "ctr_threshold": 0.03,
+      "conversion_threshold": 0.01,
+      "engagement_time_threshold": 10.0,
+      "sentiment_threshold": 0.5
+    },
+    "reporting": {
+      "frequency": "daily",
+      "format": "json",
+      "include_recommendations": true,
+      "auto_optimize": true
+    }
+  },
+  
+  "optimization": {
+    "a_b_testing": {
+      "enabled": true,
+      "test_duration": 24,
+      "confidence_level": 0.95,
+      "min_sample_size": 100
+    },
+    "machine_learning": {
+      "enabled": true,
+      "model_update_frequency": "weekly",
+      "features": ["user_behavior", "time_of_day", "content_performance", "segment_response"]
+    },
+    "real_time_adjustments": {
+      "enabled": true,
+      "adjustments": ["message_tone", "ar_frequency", "cta_position", "timing"]
+    }
+  }
+}
+
+
